@@ -5,6 +5,6 @@
 
 add_admin_route 'password_management.title', 'password-management'
 
-Discourse::Application.routes.append do
-  get '/admin/plugins/discourse-plugin-unwise-authentication' => 'admin/plugins#index', constraints: StaffConstraint.new
+Discourse::Admin.routes.append do
+  get '/admin/plugins/password-management' => 'admin/plugins#index', constraints: StaffConstraint.new
 end
