@@ -6,5 +6,5 @@
 add_admin_route 'password_management.title', 'password-management'
 
 Discourse::Application.routes.append do
-  get '/admin/plugins/purple-tentacle' => 'admin/plugins#index', constraints: StaffConstraint.new
+  get '/admin/plugins/discourse-plugin-unwise-authentication' => 'admin/plugins#index', constraints: StaffConstraint.new
 end
