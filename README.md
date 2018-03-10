@@ -7,4 +7,6 @@ Proceed with a normal [installation of a plugin](https://meta.discourse.org/t/in
 
 ## About
 
-This accompanies a configuration of the Docker container, providing resources inside the image to be copied over config/site_settings.yml
+This plugin install centrally administered authentication and password reset which do not involve self service through email.
+
+This is NOT the standard or recommended way to build a community.  This is a niche instance of a confidential server configuration which operates in an assumption of potential hostiles in the member's emails.  Please think twice before using this method just because it's how your old forum worked!
