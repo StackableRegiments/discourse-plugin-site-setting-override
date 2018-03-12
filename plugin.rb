@@ -9,7 +9,7 @@ def setMin(field,min)
   f = SiteSetting.find_by(name: field)
   puts(f.instance_members)
   puts(f.variables)
-  f.min = min
+  //f.min = min
   f.value = min
   f.save!
 end
