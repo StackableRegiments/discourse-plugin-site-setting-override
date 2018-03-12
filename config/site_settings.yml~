@@ -1,4 +1,0 @@
-plugins:
-  unwise_authentication_enabled:
-    default:true
-    client:true
