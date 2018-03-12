@@ -8,6 +8,7 @@ enabled_site_setting :unwise_authentication
 def setMin(field,min)
   puts("Finding field",field)
   f = SiteSetting.find_by(name: field)
+  f = SiteSetting.min_password_length
   puts("F: ",f)
   puts(f.attributes)
   puts(f.instance_methods)
