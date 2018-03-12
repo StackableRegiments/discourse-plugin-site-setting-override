@@ -1,5 +1,4 @@
 plugins:
-  unwise_authentication:
-    default:
-      true
-      client:true
+  unwise_authentication_enabled:
+    default: true
+    client:true
