@@ -1,0 +1,5 @@
+plugins:
+  unwise_authentication:
+    default:
+      true
+      client:true
