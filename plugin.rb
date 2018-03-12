@@ -10,6 +10,7 @@ def setMin(field,min)
   f = SiteSetting.find_by(name: field)
   f = SiteSetting.min_password_length
   puts("F: ",f)
+  SiteSetting.min_password_length = 1
   puts(f.attributes)
   puts(f.instance_methods)
   puts(f.methods)
