@@ -6,7 +6,7 @@
 enabled_site_setting :unwise_authentication
 
 def setMin(field,min)
-  puts(SiteSetting.find)
+  puts(SiteSetting.find_all)
   f = SiteSetting.find_by(name: field)
   puts(f.instance_methods)
   puts(f.methods)
