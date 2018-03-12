@@ -4,17 +4,3 @@
 # authors: Stackable Regiments
 
 enabled_site_setting :unwise_authentication
-
-def setMin(field,min)
-  #f = SiteSettings.where(:name,field)
-  #SiteSetting.min_password_length = 1
-  #f.value = min
-  #f.save!
-end
-
-
-after_initialize do
-  setMin('min_password_length',1)
-  setMin('min_admin_password_length',1)
-  #SiteSetting.block_common_passwords = false
-end
