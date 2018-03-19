@@ -14,3 +14,8 @@ users:
     default: 1
     max: 500
   block_common_passwords: false 
+  password_unique_characters:
+    default: 1
+    min: 1
+    max: 10
+
