@@ -8,8 +8,9 @@ users:
     min: 1
     default: 1
     max: 500
-min_admin_password_length:
+  min_admin_password_length:
     client: true
     min: 1
     default: 1
     max: 500
+  block_common_passwords: false 
