@@ -7,7 +7,7 @@ enabled_site_setting :unwise_authentication_enabled
 
 
 after_initialize do
-register_asset "stylesheets/incognito.scss"
+  register_asset "stylesheets/incognito.scss"
   SessionController.class_eval do
 
     skip_before_action :check_xhr
